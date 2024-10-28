@@ -1,0 +1,57 @@
+.whatWeBelieve{
+    position: relative;
+    padding: var(--section-padding-top) 10% var(--section-padding-top) 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--primary-text-color);
+    
+}
+
+.whatWeBelieve h2{
+    font-size: 4.5rem;
+    line-height: 120%;
+    font-family: var(--secondary-font);
+}
+
+.whatWeBelieve p{
+    width: 68%;
+    line-height: 180%;
+    font-size: 1.6rem;
+}
+
+/* TABLET STYLES */
+@media only screen and (min-width: 650px) and (max-width: 990px){
+    .whatWeBelieve h2{
+        font-size: 5rem;
+    }
+    .whatWeBelieve{
+        padding: var(--section-padding-top) 5%;
+    }
+    .whatWeBelieve p{
+        line-height: 150%;
+        width: 65%;
+        font-size: 2rem;
+    }
+}
+ 
+/* MOBILE STYLES */
+@media only screen and (max-width: 649px){
+    .whatWeBelieve{
+        padding: var(--section-padding-top) 5% var(--section-padding-top) 10%;
+       flex-direction: column;
+        gap: 4vw
+    }
+    
+    .whatWeBelieve h2{
+        width: 100%;
+        font-size: 4.5rem;
+        line-height: 120%;
+    }
+    
+    .whatWeBelieve p{
+        line-height: 150%;
+        width: 100%;
+        font-size: 1.6rem;
+    }
+}
