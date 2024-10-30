@@ -1,3 +1,6 @@
+import AboutUs from "@/app/(mainsite)/components/aboutpage/AboutUs/AboutUs"
+import Visit from "@/app/(mainsite)/components/homepage/Visit/Visit"
+import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
@@ -26,7 +29,9 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 export default function AboutPage(){
 	 return(
 	 	 <>
-
+			<PageTitle pageTitle="About" />
+			<AboutUs />
+			<Visit />
 	 	 </>
 	 )
 }

@@ -1,11 +1,11 @@
-import ContactInfo from "@/app/(mainsite)/components/contactpage/ContactInfo/ContactInfo"
-import FormAndMap from "@/app/(mainsite)/components/contactpage/FormAndMap/FormAndMap"
+import ServiceTimes from "@/app/(mainsite)/components/homepage/ServiceTimes/ServiceTimes"
 import PageTitle from "@/app/(mainsite)/components/misc/PageTitle/PageTitle"
+import VisitContent from "@/app/(mainsite)/components/visitpage/VisitContent/VisitContent"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-	  title: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
-	  description: `Contact | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
+	  title: `Visit | ${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
+	  description: `Visit | ${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 openGraph: {
 title: `${process.env.NEXT_PUBLIC_WEBSITE_TITLE}`,
 description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
@@ -26,12 +26,12 @@ description: `${process.env.NEXT_PUBLIC_WEBSITE_DESC}`,
 }
 }
 
-export default function ContactPage(){
+export default function VisitPage(){
 	 return(
 	 	 <>
-			<PageTitle pageTitle="Contact" />
-			<ContactInfo />
-			<FormAndMap />
+			<PageTitle pageTitle="Visit" />
+			<VisitContent />
+			<ServiceTimes />
 	 	 </>
 	 )
 }
