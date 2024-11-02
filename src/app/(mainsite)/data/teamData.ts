@@ -3,20 +3,8 @@ const teamData: teamMemberType[] = [
         name: "Aaron Walker",
         imgSrc: "/img/staff/aaron.png",
         role: "Senior Pastor",
-        description: `God's Favor Ministries in Chicago is a welcoming community where everyone is valued and supported. As a place of refuge, encouragement, and help, we are dedicated to ministering to the whole person—physically, financially, and spiritually. Through worship, seminars, conferences, and fellowship, we teach and uplift God’s people, sharing His inspired Word. Our goal is to strive for excellence so that our lives reflect God’s glory in everything we do.`
-    },
-    {
-        name: "Aaron Walker",
-        imgSrc: "/img/staff/aaron.png",
-        role: "Senior Pastor",
-        description: `God's Favor Ministries in Chicago is a welcoming community where everyone is valued and supported. As a place of refuge, encouragement, and help, we are dedicated to ministering to the whole person—physically, financially, and spiritually. Through worship, seminars, conferences, and fellowship, we teach and uplift God’s people, sharing His inspired Word. Our goal is to strive for excellence so that our lives reflect God’s glory in everything we do.`
-    },
-    {
-        name: "Aaron Walker",
-        imgSrc: "/img/staff/aaron.png",
-        role: "Senior Pastor",
-        description: `God's Favor Ministries in Chicago is a welcoming community where everyone is valued and supported. As a place of refuge, encouragement, and help, we are dedicated to ministering to the whole person—physically, financially, and spiritually. Through worship, seminars, conferences, and fellowship, we teach and uplift God’s people, sharing His inspired Word. Our goal is to strive for excellence so that our lives reflect God’s glory in everything we do.`
-    },
+        description: `Apostle Aaron k. Walker, has been Preaching for 45 years, has been pastoring 39 years, affirm as an Apostle in the Lord’s Church for 25 Years, he has planted 16 Churches across the United States, including God’s Favor which is 3years old, and just Recently started last year, God’s Favor Deliverance Ministries in Miami, Florida. He loves God’s People, and believes in Ministry to the Whole man, and believes God can save anybody who wants to be saved and better their lives, to be the best that they can be in Christ Jesus!`
+    }
     
 ]
 
